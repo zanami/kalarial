@@ -1,3 +1,9 @@
 /*! 
  * Kalatheme (http://drupal.org/project/kalatheme) 
  */ 
+
+/* owl-carousel products */
+
+.view-products-list .owl-carousel .owl-item {
+	padding: 0 5px;
+}
