@@ -7,3 +7,8 @@
 .view-products-list .owl-carousel .owl-item {
 	padding: 0 5px;
 }
+
+.view-products-list .thumbnail {
+	width: 219px;
+	height: 219px;
+}
