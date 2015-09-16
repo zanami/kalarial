@@ -12,6 +12,10 @@
 
 }
 
+.navbar {
+	background: url(images/logo-abc.png) 200px 50% no-repeat;
+}
+
 .navbar-brand #site-name {
 	font-size: 27px;
 	margin: 5px 0;
@@ -91,7 +95,7 @@
 }
 
 /* colorbox hack */
-.node-product .field-name-title-field h2 a {display: none;}
+.node-product h2 a {display: none;}
 
 .node-product .field-name-title-field h2 {
 	text-transform: uppercase;
