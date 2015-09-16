@@ -30,17 +30,19 @@
 }
 
 #top-content #navigation-wrapper {
-  background: #6b9430;
 }
 
 #top-content ul.menu {
-	margin: 4px 0;
+	margin: 14px 0;
 	font-size: 16px;
 }
 
 #top-content ul.menu > li > a {
   color: #bfff61; 
 	text-transform: uppercase;
+  border: 1px solid #dfffd1;
+  margin-right: 5px;
+  border-radius: 1em 0 1em 0;
 }
 #top-content ul.menu > li > a:hover,
 #top-content ul.menu > li > a:focus {
@@ -51,5 +53,5 @@
 #top-content ul.menu > .active-trail > a:hover,
 #top-content ul.menu > .active-trail > a:focus {
   color: #ffffff;
-  background-color: #89be3d;
+  background-color: #6b9430;
 }
