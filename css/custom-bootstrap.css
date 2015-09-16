@@ -3221,22 +3221,27 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   z-index: 2;
   margin-left: -1px;
 }
-.nav {
+.nav
+.nav ul.menu {
   margin-bottom: 0;
   padding-left: 0;
   list-style: none;
 }
-.nav > li {
+.nav > li,
+.nav ul.menu > li {
   position: relative;
   display: block;
 }
-.nav > li > a {
+.nav > li > a,
+.nav ul.menu > li > a {
   position: relative;
   display: block;
   padding: 10px 15px;
 }
 .nav > li > a:hover,
-.nav > li > a:focus {
+.nav > li > a:focus,
+.nav ul.menu > li > a:hover,
+.nav ul.menu > li > a:focus {
   text-decoration: none;
   background-color: #eeeeee;
 }
@@ -3334,18 +3339,28 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     border-bottom-color: #ffffff;
   }
 }
-.nav-pills > li {
+.nav-pills > li,
+.nav-pills ul.menu > li {
   float: left;
 }
-.nav-pills > li > a {
+.nav-pills > li > a,
+.nav-pills ul.menu > li > a {
   border-radius: 3px;
 }
-.nav-pills > li + li {
+.nav-pills > li + li,
+.nav-pills ul.menu > li + li {
   margin-left: 2px;
 }
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
-.nav-pills > li.active > a:focus {
+.nav-pills > li.active > a:focus, 
+.nav-pills ul.menu > li.active > a,
+.nav-pills ul.menu > li.active > a:hover,
+.nav-pills ul.menu > li.active > a:focus,
+.nav-pills ul.menu > li.active-trail > a,
+.nav-pills ul.menu > li.active-trail > a:hover,
+.nav-pills ul.menu > li.active-trail > a:focus {
+	
   color: #ffffff;
   background-color: #2196f3;
 }
