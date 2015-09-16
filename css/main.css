@@ -29,12 +29,18 @@
   color: #fff;
 }
 
-#top-conetnt #navigation-wrapper {
-  background: #6A9F2E;
+#top-content #navigation-wrapper {
+  background: #6b9430;
+}
+
+#top-content ul.menu {
+	margin: 4px 0;
+	font-size: 16px;
 }
 
 #top-content ul.menu > li > a {
-  color: #6b9430; 
+  color: #bfff61; 
+	text-transform: uppercase;
 }
 #top-content ul.menu > li > a:hover,
 #top-content ul.menu > li > a:focus {
