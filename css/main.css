@@ -117,3 +117,12 @@
 	background: #eff5ef;
 	margin-top: 23px;
 }
+
+/* wysiwyg image alignment */
+
+.align-left > img {
+	margin: 6px 23px 6px 0;
+}
+.align-right > img {
+	margin: 6px 0 6px 23px;
+}
