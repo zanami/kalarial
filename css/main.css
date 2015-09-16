@@ -32,7 +32,7 @@
 
 #top-content h1, #top-content .title {
   color: #fff;
-	margin: 10px 0;
+	margin: 9px 0;
 }
 
 #top-content #navigation-wrapper {
@@ -46,7 +46,7 @@
   color: #dfffd1; 
 	text-transform: uppercase;
   border: 1px solid #dfffd1;
-  margin: 14px 5px 0 0;
+  margin: 14px 5px 14px 0;
   border-radius: 1em 0 1em 0;
 }
 #top-content ul.menu > li > a:hover,
@@ -81,4 +81,15 @@
   max-width: 100%;
   height: auto;
 	margin-right: 23px;
+	float: left;
+}
+
+.node-type-product .node-full h2,
+.node-type-product .node-full h3 {
+	margin: 0;
+	color: #6b9430;
+	font-size: 18px;
+}
+.node-type-product .node-full h2 {
+	text-transform: uppercase;
 }
