@@ -29,6 +29,10 @@
   color: #fff;
 }
 
+#top-content h1, #top-content .title {
+  color: #fff;
+}
+
 #top-content #navigation-wrapper {
 }
 
@@ -38,7 +42,7 @@
 }
 
 #top-content ul.menu > li > a {
-  color: #bfff61; 
+  color: #dfffd1; 
 	text-transform: uppercase;
   border: 1px solid #dfffd1;
   margin-right: 5px;
