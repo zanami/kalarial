@@ -3221,7 +3221,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   z-index: 2;
   margin-left: -1px;
 }
-.nav
+.nav,
 .nav ul.menu {
   margin-bottom: 0;
   padding-left: 0;
