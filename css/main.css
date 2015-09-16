@@ -14,7 +14,7 @@
 
 /* hide title on front */
 
-.front .page-title {
+.front #page-title {
 	display: none;
 }
 
