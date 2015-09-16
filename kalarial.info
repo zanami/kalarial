@@ -3,7 +3,10 @@ description = A Kalatheme subtheme powered by Twitter Bootstrap & Science.
 base theme = kalatheme 
 core = 7.x 
 
-regions[content] = Content 
+regions[content] = Content
+regions[navigation] = Navigation
+regions[featured] = Featured
+regions[footer] = Footer
 
 stylesheets[all][] = css/custom-bootstrap.css
 stylesheets[all][] = css/main.css

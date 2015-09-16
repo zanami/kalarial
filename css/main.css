@@ -11,3 +11,11 @@
 .view-products-list .thumbnail {
 
 }
+
+.navbar-brand h1 {
+	font-size: 27px;
+	margin: 5px 0;
+}
+.navbar-brand .site-slogan {
+	font-size: 18px;
+}
