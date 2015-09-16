@@ -12,8 +12,8 @@
 
 }
 
-.navbar {
-	background: url(images/logo-abc.png) 200px 50% no-repeat;
+.navbar .container {
+	background: url(../images/logo-abc.png) 260px 50% no-repeat;
 }
 
 .navbar-brand #site-name {
