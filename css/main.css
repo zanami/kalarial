@@ -12,6 +12,12 @@
 
 }
 
+/* hide title on front */
+
+.front .page-title {
+	display: none;
+}
+
 .navbar .container {
 	background: url(../images/logo-abc.png) 260px 50% no-repeat;
 }
@@ -104,4 +110,10 @@
 .node-product .field-name-field-subtitle h3 {
 	margin-bottom: 23px;
 	font-size: 18px;
+}
+
+
+#footer-wrapper {
+	background: #eff5ef;
+	margin-top: 23px;
 }
