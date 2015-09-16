@@ -20,7 +20,30 @@
 	font-size: 18px;
 }
 
+.nav-inline ul.menu li {
+	float: left;
+}
+
 #top-content {
   background: #8ABF3E;
   color: #fff;
+}
+
+#top-conetnt #navigation-wrapper {
+  background: #6A9F2E;
+}
+
+#top-content ul.menu > li > a {
+  color: #6b9430; 
+}
+#top-content ul.menu > li > a:hover,
+#top-content ul.menu > li > a:focus {
+  color: #ffffff;
+  background-color: transparent;
+}
+#top-content ul.menu > .active-trail > a,
+#top-content ul.menu > .active-trail > a:hover,
+#top-content ul.menu > .active-trail > a:focus {
+  color: #ffffff;
+  background-color: #89be3d;
 }
