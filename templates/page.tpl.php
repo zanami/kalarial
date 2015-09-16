@@ -171,30 +171,19 @@
     </div>
   </header>
 	
-	<div id="navigation-wrapper">
-	  <div class="container">
-	    <div id="navigation">
-	      <div class="column">
-	        <?php print render($page['navigation']); ?>
-	      </div>
-	    </div>
-	  </div><!-- /.section, /#navigation -->
-	</div>
-	
-	<div id="featured-wrapper">
-	  <div class="container">
-	    <div id="featured">
-	      <div class="column">
-	        <?php print render($page['featured']); ?>
-	      </div>
-	    </div>
-	  </div><!-- /.section, /#navigation -->
-	</div>
-
   <!-- Page Main -->
   <div id="main-wrapper" class="clearfix">
     <main id="main" class="clearfix" role="main">
       <div id="top-content">
+				<div id="navigation-wrapper">
+				  <div class="container">
+				    <div id="navigation">
+				      <div class="column">
+				        <?php print render($page['navigation']); ?>
+				      </div>
+				    </div>
+				  </div><!-- /.section, /#navigation -->
+				</div>
         <div class="column container">
           <a id="main-content"></a>
           <?php if (($no_panels || $always_show_page_title) && $title): ?>
@@ -221,6 +210,16 @@
             </div>
           <?php endif; ?>
         </div>
+				<div id="featured-wrapper">
+				  <div class="container">
+				    <div id="featured">
+				      <div class="column">
+				        <?php print render($page['featured']); ?>
+				      </div>
+				    </div>
+				  </div><!-- /.section, /#navigation -->
+				</div>
+				
       </div> <!-- /.section, /#top-content -->
 
       <div class="container">

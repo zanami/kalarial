@@ -19,3 +19,8 @@
 .navbar-brand #site-slogan {
 	font-size: 18px;
 }
+
+#top-content {
+  background: #8ABF3E;
+  color: #fff;
+}
