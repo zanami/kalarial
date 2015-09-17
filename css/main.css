@@ -13,14 +13,21 @@
 }
 
 .view-products-list .product-view-title,
-.view-products-list .product-view-subtitle {
+.view-products-list .product-view-subtitle,
+.view-products-list .product-view-packaging {
 	font-size: 13px;
 	overflow: hidden;
 	white-space: nowrap;
+	text-overflow: ellipsis;
 }
 
 .view-products-list .product-view-title {
 	text-transform: uppercase;
+	margin: 9px 0 0;
+}
+
+.view-products-list .product-view-subtitle {
+	margin: 0;
 }
 
 
