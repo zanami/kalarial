@@ -12,6 +12,18 @@
 
 }
 
+.view-products-list .product-view-title,
+.view-products-list .product-view-subtitle {
+	font-size: 13px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.view-products-list .product-view-title {
+	text-transform: uppercase;
+}
+
+
 /* hide title on front */
 
 .front #page-title {
