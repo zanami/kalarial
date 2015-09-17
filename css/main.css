@@ -8,6 +8,15 @@
 	padding: 0 5px;
 }
 
+.owl-theme .owl-controls {
+	margin-bottom: 23px;
+}
+
+.owl-theme .owl-controls .owl-buttons div,
+.owl-theme .owl-controls .owl-page span {
+	background: #8ABF3E;
+}
+
 .view-products-list .thumbnail {
 
 }
