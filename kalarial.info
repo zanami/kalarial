@@ -11,3 +11,5 @@ regions[footer] = Footer
 stylesheets[all][] = css/custom-bootstrap.css
 stylesheets[all][] = css/main.css
 
+scripts[] = bootstrap/js/dropdown.js
+
