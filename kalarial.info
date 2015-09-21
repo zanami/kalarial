@@ -12,4 +12,5 @@ stylesheets[all][] = css/custom-bootstrap.css
 stylesheets[all][] = css/main.css
 
 scripts[] = bootstrap/js/dropdown.js
+scripts[] = bootstrap/js/collapse.js
 
