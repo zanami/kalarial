@@ -27,7 +27,7 @@ function kalarial_file_entity_download_link($variables) {
 
   // Provide the default link text.
   if (!isset($variables['text'])) {
-    $variables['text'] = $icon.' '.t('Download [file:name]');
+    $variables['text'] = t('Download [file:name]');
   }
 
   // Perform unsanitized token replacement if $uri['options']['html'] is empty
@@ -35,7 +35,7 @@ function kalarial_file_entity_download_link($variables) {
   $variables['text'] = token_replace($variables['text'], array('file' => $file), array('clear' => TRUE, 'sanitize' => !empty($uri
 ['options']['html'])));
 
-  $output = '<span class="file">' . l($variables['text'], $uri['path'], $uri['options']);
+  $output = '<span class="file">' . l($icon.' '.$variables['text'], $uri['path'], $uri['options']);
   $output .= '</span>';
 
   return $output;
